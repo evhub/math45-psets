@@ -1,0 +1,114 @@
+\documentclass[12pt,letterpaper]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+\usepackage{url}
+\renewcommand{\Re}{\mathop{\rm {Re}}}
+\renewcommand{\Im}{\mathop{\rm {Im}}}
+
+% info for header block in upper right hand corner
+\name{ }
+\class{Math 45 - Section --- \hspace{20pt}}
+\assignment{HW 2}
+\duedate{Friday, March 11, 2016}
+
+\newcommand{\pn}[1]{\left( #1 \right)}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\bk}[1]{\left[ #1 \right]}
+
+\newcommand{\vb}{\mathbf{v}}
+\newcommand{\ub}{\mathbf{u}}
+\renewcommand{\labelenumi}{{(\alph{enumi})}}
+
+\begin{document}
+
+\problemlist{1, 2, 3, 4}
+
+% 1 %
+\begin{problem}[1]
+Complex numbers are helpful when expressing oscillatory behavior using trigonometric functions. Euler's formula helps us to convert from complex exponentials like $e^{i\theta}$ to trigonometric functions like cosine and sine:
+\[
+e^{i\theta}=\cos\theta + i \sin\theta.
+\]
+How do we convert from cosine and sine into complex exponentials? Consider that
+\[
+e^{-i\theta}=\cos(-\theta)+i\sin(-\theta) = \cos\theta-i\sin\theta.
+\]
+Add the two equations above and solve for $\cos\theta$. Subtract to solve for $\sin\theta$.
+\end{problem}
+
+\begin{solution}
+\vfill
+\end{solution}
+\newpage
+
+% 2 %
+\begin{problem}[2]
+  Simplify each of the following expressions, assuming that $a$, $t$, $\omega$ are real numbers.\\
+
+Example: $\Re\left(e^{i\omega t}\right)=\Re\left[\cos(\omega t)+i\sin(\omega t)\right]=\fbox{$\cos(\omega t)$}$
+
+\begin{enumerate}
+\item $\Im\left(e^{i\omega t}\right)=$
+\item $\Im\left(e^{-i\omega t}\right)=$
+\item $\Re\left(e^{(a+i\omega)t}\right)=\Re\left(e^{at}e^{i\omega t}\right)=\Re\left[e^{at}\cos(\omega t)+i e^{a t}\sin(\omega t)\right]=$
+\item $\Im\left(e^{(a+i\omega)t}\right)=$
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+\vfill
+\end{solution}
+\newpage
+
+% 3 %
+\begin{problem}[3]
+  For each of the following ordinary differential equations,
+  indicate its order, whether it is linear or nonlinear, whether
+  it is autonomous or non-autonomous, and whether it is driven or undriven.
+\begin{enumerate}
+\item $\dfrac{dg}{dx}+ g^3=0$
+\item $\ddot{y}(t)+e^{t\,y(t)}=\cosh t$
+\qquad \textbf{Note:} $\ddot{y}(t)$ is the same as $y''(t)=\dfrac{d^2y}{dt^2}$.
+\item $r^2R''(r)+r R'(r)-5 R(r)=0$
+\item $\ddot{\theta}+\sin\theta=0$
+\item $f''' = f' + x\,f + 4\sin(x)$
+\item $\dfrac{y'}{y} = 7$
+\qquad \textbf{Note:} If possible, rewrite this DE so that it is linear.  If not, explain why.
+\end{enumerate}
+\end{problem}
+
+\begin{solution}
+\vfill
+\end{solution}
+\newpage
+
+\begin{problem}[4]
+Many residents in Flint, Michigan currently do not have access to safe drinking water from their municipal water supply. This problem is complicated because it is the result of many actions by city and state officials over many decades. The most recent crisis involving elevated lead levels in the municipal water supply stems from the city council's decision to switch from lake water purchased from the city of Detroit to treated Flint River water.
+\\\\
+As you can imagine, there are lawyers involved in this situation, on both sides of the issue.  Suppose that you work for a consultancy that has been hired to work on this case (either on behalf of the plaintiffs or defendants). Your job is to develop a mathematical model to bolster or refute any of the claims that have been made or are being made about the water in Flint.  You will begin your initial work on a mathematical model in this problem. Your company specializes in differential equations, so you should think about including rates of change, but you could use additional mathematics, such as probability and statistics.  You do not need to develop the mathematical model.  For now, answer the following questions (typed, max one-page, single-spaced):
+
+\begin{enumerate}
+\item What specific questions will your model hope to answer?
+\item What variables or parameters will you include?  How would you measure or estimate them?  Try to apply ideas about sampling from Prob/Stat.
+\item What simplifications/assumptions in the model do you think the public would find acceptable?  How would you test if those assumptions are reasonable?
+\end{enumerate}
+
+You are welcome to use online resources, but please cite your sources. You might find some of this information helpful:
+
+\begin{itemize}
+\item Wikipedia entry on the crisis \\ \url{https://en.wikipedia.org/wiki/Flint_water_crisis}
+\item Official Michigan state web page on the issue \\
+\url{http://www.michigan.gov/flintwater}
+\item New York Times story on January 24, 2016\\ \url{http://nyti.ms/1UjwAaH}
+\item CBS News story on February 8, 2016\\ \url{http://www.cbsnews.com/news/flint-water-crisis-lawsuits-piling-up/}
+\item Helpful time line of events from Motherjones \\
+\url{http://www.motherjones.com/environment/2016/01/flint-lead-water-crisis-timeline}
+\item Virginia Tech has a team of people working to help: \url{http://flintwaterstudy.org/}
+\item EPA's web site about lead: \url{http://www.epa.gov/lead/learn-about-lead}
+\end{itemize}
+
+\end{problem}
+
+\end{document}
