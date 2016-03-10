@@ -1,0 +1,127 @@
+\documentclass[12pt,letterpaper]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 45 - Section ---}
+\assignment{Homework 1}
+\duedate{Friday, March 11, 2016}
+
+\newcommand{\RR}{\mathbb{R}}
+
+\begin{document}
+
+\problemlist{1,2,3,4,5,6,7}
+
+%%%%%%%%%%%%%%%%%%
+\begin{problem}[1]
+    Find the solution to $y' = (1 + x)y^2$, $y(0) = 1$.
+    Determine the interval in which the solution
+    is defined. Sketch the graph of the solution.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%
+\begin{problem}[2]
+    Find the solution to $xdx + ye^{-x}dy = 0$,
+    $y(0) = 1$. Determine the interval in which the
+    solution is defined. Sketch the graph of the solution.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%
+\begin{problem}[3]
+    Find the solution to $y^2(1 - x^2)^{1/2}dy =
+    \arcsin(x)dx$, $y(0) = 0$. Determine the interval in
+    which the solution is defined. Sketch the graph
+    of the solution.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%
+\begin{problem}[4]
+    Find the general solution to
+    \[
+        \text{a) } \frac{dy}{dx} = \frac{x^2+xy+y^2}{x^2}\text{, and b) }\frac{dy}{dx} = \frac{x+3y}{x-y}.
+    \]
+    \textit{Hint: Use the substitution $y(x) = xv(x)$ to solve for $v(x)$ first.}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%
+\begin{problem}[5]
+    Consider the equation
+    \begin{align}
+        y'+g(t)y = f(t)\label{5-ode}
+    \end{align}
+    where $f(t)$ and $g(t)$ are continuous functions on
+    $\RR$. Let
+    \[
+        I(t) = \int_0^t g(s)ds.
+    \]
+    Verify that
+    \[
+        y(t) = Ce^{-I(t)}+\int_0^t e^{I(s)-I(t)}f(s)ds
+    \]
+    is a solution to (\ref{5-ode}). What is $y(0)$?
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%
+\begin{problem}[6 - Bernoulli's Differential Equation]
+    Let $n > 1$ be an integer. Show that the 
+    change of variables $z = y^{1-n}$ transforms
+    the equation $y' + a(x)y = b(x)y^n$
+    into a linear differential equation.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+%%%%%%%%%%%%%%%%%%
+\begin{problem}[7]
+    An object (skydiver?) falls off a plane from an
+    altitude of 3,000 meters. The gravitational
+    force of the earth increases its vertical 
+    velocity at a rate of 10 $m$/$sec^2$. After 10 
+    seconds a parachute opens causing drag that reduces
+    the vertical velocity at a rate of twice the vertical
+    velocity.
+    \begin{enumerate}[a)]
+        \item Find the differential equation for the
+            velocity after ten seconds.
+        \item Solve the equation in part a)
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\end{document}
