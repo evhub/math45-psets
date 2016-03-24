@@ -1,0 +1,162 @@
+\documentclass[12pt,letterpaper]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 45 - Section ---}
+\assignment{Homework 2}
+\duedate{Friday, March 25, 2016}
+
+\begin{document}
+
+\problemlist{B.\{1,2,3,4,5,6,7,8\}}
+
+\begin{problem}[B1]
+    Use integrating factor method to find
+    the general solution to the following
+    differential equations.
+
+    \begin{enumerate}[(a)]
+        \item $2\frac{dy}{dt} + 3y = e^{4t}$
+        \item $\frac{dy}{dt} + ty = 5t$
+        \item $\frac{1}{x}\frac{dy}{dx} + \frac{1}{x^2}y = e^x$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[B2]
+    Find the solution to the initial value problem
+    \[
+        y' + y = \frac{e^{-t}}{t^2}, \qquad y(1)=0,
+    \]
+    and explain the behavior of the solution as $t$ 
+    tends to $+\infty$.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[B3]
+    Determine whether or not each of the
+    following equations is exact. If it 
+    is exact, find the general solution.
+    \begin{enumerate}[(a)]
+        \item $\frac{dy}{dx} = -\frac{ax+by}{bx+cy}$
+        \item $(e^x\sin y + 3y)dx - (3x-e^x\cos y)dy = 0$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[B4]
+    \begin{enumerate}[(a)]
+        \item Find the general solution to the equation
+            \[
+                \frac{dy}{dt} = \frac{4\sin(2t)}{y}.
+            \]
+            Your answer should be an explicit function
+            $y(t)$ with two branches.
+        \item Now impose the initial condition $y(0) = 1$.
+            What is the solution to the DE that satisfies
+            this initial condition?
+        \item What is the largest $t-$interval on which the
+            solution is defined?
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[B5]
+    Let $f(x, y) = 3x^2 + 2y^2$. Find an exact first
+    order differential equation whose solutions are 
+    the level curves of $f$.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[B6]
+    For the last few decades, Italy has had its growth
+    rate decline to where soon the country will not even 
+    have enough births (or immigration) to replace the
+    number of deaths in the country. Thus, its population
+    may soon start declining. The population of Italy in
+    1950 was 47.1 million, in 1970 it was 53.7 million, and 
+    in 1990 it was 56.8 million. 
+    
+    Consider the non-autonomous Malthusian growth model
+    given by the differential equation
+    \[
+        \frac{dP}{dt} = (at+b)P, \qquad P(1950) = 47.1
+    \]
+    where the constants a and b are to be determined by the 
+    data. Solve this differential equation with the data 
+    above. The solution is messy, so you can use a computer
+    to deal with arithmetic or linear algebra (but not the 
+    differentiation) as long as you show all the steps of 
+    your work and explain what you are doing and why. Retain 
+    six places after the decimal. (Thanks to Mahaffy for 
+    this problem.)
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[B7]
+    You can solve the second order differential equation
+    $y'' = y'$ using a change of variables combined with
+    separation of variables (or inspection). This simple
+    example illustrates a technique that can be applied
+    to harder problems. Here’s the idea:
+    \begin{itemize}
+        \item First define a new variable, $w = y'$.
+        \item Rewrite the original DE in terms of $w$ to get $w' = w$.
+        \item Solve $w' = w$ to find $w(x)$.
+        \item Substitute the answer you get for $w(x)$
+            into $w' = y'$ and solve for $y$.
+        \item Show that your solution satisfies the original DE.
+        \item Find the solution that satisfies $y(0) = y'(0) = 1$.
+    \end{itemize}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[B8]
+    Consider the equation
+    \begin{align}
+        \frac{dy}{dt} &= f(t,y) \label{1}
+    \end{align}
+    where $f$ and $\frac{\partial f}{\partial y}$ are both
+    continuous functions for all real values of t and y. Let
+    $y(t)$ and $\tilde{y}(t)$ both be two different solutions
+    to (\ref{1}). Explain why the graphs of $y$ and 
+    $\tilde{y}$ cannot intersect.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+
+\end{document}
