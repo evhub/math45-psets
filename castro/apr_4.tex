@@ -1,0 +1,150 @@
+\documentclass[12pt,letterpaper]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 45 - Section ---}
+\assignment{Homework 3}
+\duedate{Monday, April 4, 2016}
+
+\newcommand{\RR}{\mathbb{R}}
+
+\begin{document}
+
+\problemlist{C.\{1,2,3,4,5,6,7,8\}}
+
+\begin{problem}[C1]
+    Find the equilibrium points of the following
+    differential equations and determine their 
+    stability:
+    \begin{enumerate}[(a)]
+        \item $y' = y(3-y)-1$
+        \item $y'=y^3(y^2-1)$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[C2]
+    Find the equilibrium points of the following
+    differential equations and determine their 
+    stability:
+    \begin{enumerate}[(a)]
+        \item $y' = y^2(y^2-1)$
+        \item $y' = e^{-y}\sin(y)$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[C3]
+    For each of the following find an equation 
+    $y' = f(y)$ with each of the following stated
+    properties. If there no examples explain why not.
+    (In all cases assume that f(y) is continuously
+    differentiable.)
+    \begin{enumerate}[(a)]
+        \item Every real number is an equilibrium point.
+        \item Every integer is an equilibrium point and
+            there are no others.
+        \item There are no equilibrium points.
+        \item There are exactly 100 equilibrium points.
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[C4]
+    Find the values of $p > 0$ such that the solution
+    to $y'=-y^p$, $y(0)=1$ satisfies satisfies $y(t) =
+    0$ for some $t > 0$. Use the existence and uniqueness
+    theorem to prove that if $p\geq 1$ then $y(t) > 0$
+    for all $t\in[0,+\infty)$.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[C5]
+    Suppose the natural growth of a population is $.02$
+    and that there is no competition for resources in
+    the population. If the population is constantly 
+    harvested it is modeled by the differential equation
+    \[
+        P' = 0.2P - k
+    \]
+    Discuss the role of the parameter $k > 0$. Prove that 
+    if $k$ is very large the population will go extinct 
+    while for $k$ small the population will thrive. Find
+    the value of $k$ that separates these regimes in terms
+    of the initial population and the growth rate.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[C6]
+    Let $f(x, y)$ be defined for all $(x, y)\in\RR^2$,
+    continuous and continuously differentiable in the
+    variable $y$. Assuming that $f(x, y)y \leq 0$ for
+    all $(x, y)$, find the solution to $y' = f(x, y)$, 
+    $y(-.333) = 0$ (Hint: Compute $f(x, 0)$). Sketch
+    the graphs of the solutions to this differential 
+    equation that satisfy $y(0) = 1$, and $y(0) = -1$.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[C7]
+    Justify why the differential equation $y' = 
+    \sin(x^2+y^3)$ is not separable, linear, or exact.
+    Use a computer spreadsheet to approximate the solution
+    given by Euler’s method to this differential that
+    satisfies $y(0) = 1$ in the interval $[0, 1]$ with 
+    mesh of size $h = .01$, and with mesh size $h = .001$.
+    Find $y(.k)$ for $k = 1,\dots,10$ for each approximation. 
+    Use the graphing feature of the spreadsheet to obtain 
+    in the same caption the graphs of both solutions.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[C8]
+    The solution to $y'=(1+x^4)y^2$, $y(0) = 1$ blows up in
+    $(0,\infty)$. Use a computer spreadsheet to estimate
+    the blow up time using three Euler approximations to the 
+    solution. Find $y(.k)$ for $k = 1,\dots,10$ for each
+    approximation. Separate the variables in this equation and 
+    find the solution. Compare the estimate for the blow up 
+    time obtained from the numerical approximations and the 
+    one given by the actual solution.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\end{document}
