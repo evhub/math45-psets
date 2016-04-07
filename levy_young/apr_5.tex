@@ -1,0 +1,121 @@
+\documentclass[12pt,letterpaper]{hmcpset}
+\usepackage[margin=1in]{geometry} 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{boxedminipage}
+\usepackage{url}
+\usepackage{geometry}
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 45 - Section --- \hspace{20pt}}
+\assignment{HW 06}
+\duedate{Tuesday, April 5, 2016}
+
+\newcommand{\pn}[1]{\left( #1 \right)}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\bk}[1]{\left[ #1 \right]}
+
+\newcommand{\mybox}{\mbox{\hspace{.02in}}\fbox{\rule[-1mm]{0mm}{6mm}\hspace{.30in}}\mbox{\hspace{.02in}}}
+
+\renewcommand{\labelenumi}{{(\alph{enumi})}}
+
+%Block Paragraphs
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\begin{document}
+
+\problemlist{1, 2, 3, 4, 5}
+
+%p1%
+\begin{problem}[1]
+    Find the general solution to the following ODEs.
+    \begin{enumerate}
+        \item $y'' + 6y' + 8y = 0$
+        \item $y'' - 2y' - 8y = 0$ 
+        \item $y'' + 6y' + 9y  = 0 $
+        \item $y'' + 9y = 0$
+        \item $y'' + 4y = y'$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\newpage
+
+%p2%
+\begin{problem}[2]
+    In class, we solved the IVP $y''+y'+y=0$ with $y(0)=1$ and $y'(0)=0$.
+    \begin{enumerate}
+        \item Solve this problem using complex exponentials instead of sines and cosines. When you have solved for your unknown constants, express them in complex exponential form. (That is, instead of writing it as $a+bi$, write it as $\alpha e^{i\theta}$ for some $\alpha$ and $\theta$.) Leave your answer in complex exponential form.
+        \item Now, manipulate your solution in the following way, so as to convert your complex exponential solution into sines and cosines again. You should get a real-value function in the end and have a trig function involving a phase shift. Refer to Problem~5 from Homework~1.
+
+            \begin{align*}
+                y(t)&= C_1e^{r_1 t}+ C_2e^{r_2 t} \\
+                    &=\alpha_1 e^{i\theta_1}e^{r_1 t}+\alpha_2 e^{i\theta_2}e^{r_2 t} \\
+                    &= \mybox e^{(\text{ something real })t}\left[e^{(\text{ some stuff })i} \pm e^{-(\text{ same stuff })i} \right] \\
+                    &=\text{a real-valued expression involving trig fn and a phase shift}
+            \end{align*}
+        \item Compare your solution with the solution that we obtained in class. Show that they are equivalent.
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\newpage
+
+%p3%
+\begin{problem}[3]
+    Solve the following IVPs:
+
+    \begin{enumerate}
+        \item $y''-6y'+9y=0;\ y(0)= 2,\ y'(0)=1 $
+        \item $2y''+y=0;\ y(0)=2,\ y'(0)=1 $
+        \item $y''-6y'+13y=0;\ y(0) = 2,\ y'(0)=1 $ 
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\newpage
+
+%p4%
+\begin{problem}[4]
+    Consider the second-order, linear, constant-coefficient, unforced DE
+    \[
+        ay''+by'+cy=0.
+    \]
+    Suppose you know that the solutions to this differential equation decay to 0 as $t\to\infty$, regardless of what initial conditions are chosen. What must be true about the roots of the characteristic equation $a\lambda^2+b\lambda+c=0$? (This question does not require any calculations, but this idea is important enough that we are highlighting it in this problem.)
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\newpage
+
+\begin{problem}[5]
+    For this part of the assignment, you are to meet with your Math 45 final project group and perform the following set of tasks.  For this problem, it is okay for all of you to meet together and work on one document together and for each person in the group to turn in a copy (print-out) of that document.  However, you all should strive to have each person in the group contribute a roughly equal amount of effort at all stages in the project.  And, you all should try your best to come to consensus about the details of your project---if you can't find a solution that makes everyone happy, at least try to find a solution that everyone in the group can live with.
+
+    \begin{enumerate}
+        \item First, read the final project handout carefully. As a group, decide on a topic area for your final project and write that down. We encourage you to consider a community-based or social justice-based problem to model.  You can choose to define community, for example it could be a georgraphic region such as Claremont, LA-area, HMC, or a team member's home community.  It could also be a community of people, such as the Claremont Colleges Ballroom Dancers or HMC Math Club.  An example of a social justice issue might be potential impact of biases in crime modeling.
+
+        \item Find two sources of information relating to your topic area.  These could be journal articles, reputable web pages, or even faculty at the Claremont Colleges!  List your sources here.
+
+        \item Come up with a few questions of interest for your mathematical model.  Be as specific as possible, and focus on questions that could be answered using a continuous variable and differential equation.  For example, the question ``What should my schedule be next fall?" doesn't involve continuous variables and rates of change, so might not be a good question.  Some discrete quantities like population and money can be approximated as continuous variables.
+
+        \item Identify variables and parameters associated with your questions.  Decide if each of these variables is continuous or discrete.
+
+        \item Make your best guess at what principle(s) will govern your problem and lead to your differential equations.
+    \end{enumerate}
+    Try your best to answer all of these questions. You can change your mind on the answers to these questions above later. Please contact your professor if you have any questions.
+
+\end{problem}
+\newpage
+\begin{solution}
+    \null\vfill
+\end{solution}
+\end{document}
