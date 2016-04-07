@@ -1,0 +1,181 @@
+\documentclass[12pt,letterpaper]{hmcpset}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\usepackage{enumerate}
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 45 - Section ---}
+\assignment{Homework 3}
+\duedate{Friday, April 8, 2016}
+
+\newcommand{\RR}{\mathbb{R}}
+
+\begin{document}
+
+\problemlist{D.\{1,2,3,4,5,6,7,8\}}
+
+\begin{problem}[D1]
+    For each of the following differential
+    equations find its general solution:    
+    \begin{enumerate}[(a)]
+        \item $y'' - y' - 12y = 0$
+        \item $y'' + 3y' + y = 0$
+        \item $y'' + 3y' + 3y = 0$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+\end{solution}
+\clearpage
+
+\begin{problem}[D2]
+    For each of the following differential
+    equations find its general solution:    
+    \begin{enumerate}[(a)]
+        \setcounter{enumi}{3}
+        \item $y'' + 4y' + 4y = 0$
+        \item $y'' + 2y' + 2y = 0$
+        \item $4y'' + 12y' + 9y = 0$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+\end{solution}
+\clearpage
+
+\begin{problem}[D3]
+    Find the solution that satisfies $y(0) = 1$, $y'(0)
+    = 0$ in equations (a), (c) and (f) of Problems
+    D1 and D2.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[D4]
+    Consider the initial value problem
+    \[
+        \begin{cases}
+            2y'' - y' - 3y = 0\\
+            y(0) = A\\
+            y'(0) = B.
+        \end{cases}
+    \]
+    \begin{enumerate}[(a)]
+        \item  Find the solution to this problem
+            in terms of A and B.
+        \item For what values of A and B does the
+            solution tend to 0 as $t\to\infty$?
+        \item For what values of A and B does the
+            solution tend to $\infty$ as $t\to\infty$?
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[D5]
+    For each of the following initial value problems,
+    determine the largest interval on which a unique
+    twice differentiable solution, $y(t)$, is certain 
+    to exist.
+    \begin{enumerate}[(a)]
+        \item $ty'' + 3y = t^3,\quad y(1)=1,\quad y'(1)=2$
+        \item $(t-3)y'' + ty' + \ln|t|y = 0, \quad
+            y(1)=0,\quad y'(1)=1$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[D6]
+    Consider the initial value problem
+    \begin{align}
+        \begin{cases}
+            y''=-y\\
+            y(0) = \cos(a)\\
+            y'(0) = -\sin(a).
+        \end{cases}\label{d6}
+    \end{align}
+    \begin{enumerate}[(a)]
+        \item Find the solution to (\ref{d6}).
+        \item Prove $\cos(t + a)$ also solves the
+            above initial value problem.
+        \item Use the uniqueness theorem to prove 
+            that $\cos(t + a) = \cos(t) \cos(a) - 
+            \sin(t) \sin(a)$ for any $t,a\in\RR$.
+        \item Now show that another form of the general
+            solution to (\ref{d6}) is $b\cos(t+a)$.
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[D7]
+    Prove that if $a, b, c$ are three different 
+    real numbers then $e^{ax},e^{bx},e^{cx}$ are
+    linearly independent functions.
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\begin{problem}[D8 (Conservation of Energy)]
+     Let $V(x)$ be a twice continuously differentiable
+     function. Using Newton’s second law of motion we
+     can model a marble of mass 1 rolling along the graph
+     of $V(x)$ starting at position $x_0$ and with initial
+     velocity $v_0$ (where positive velocity indicates
+     moving to the right) with the initial value problem
+     \begin{align}
+         \begin{cases}
+            x'' = -V'(x)\\
+            x(0)=x_0\\
+            x'(0)=v_0.
+         \end{cases}\label{d8}
+     \end{align}
+     This model assumes that the marble does not fly off 
+     the surface of the graph and that there is no friction.
+     The function $V(x)$ in this context is referred to as 
+     a potential function. \textit{Note: A particularly 
+     interesting potential is $V (x) = \frac{1}{2}kx^2$ with 
+     $k > 0$, the potential energy for a spring. In this case the
+     equation becomes $x'' = −kx$, whose fundamental solutions
+     are periodic. This implies that a spring system is equivalent 
+     to a marble rolling up and down a parabola.}
+     \begin{enumerate}[(a)]
+         \item Show that any solution, $x(t)$, to (\ref{d8})
+             conserves the energy, i.e. $E$ is constant,
+             \[
+                 E(t) = \frac{1}{2}\left(x'(t)\right)^2 + V(x(t)).
+             \]
+         \item Show that if the right hand side in (\ref{d8}) is 
+            replaced by $-V'(x)-cx'$, $c>0$ the energy is dissipated.
+            \textit{Note: This DOES NOT model friction, as friction
+            is not proportional to the velocity of the marble.
+            Since the force of friction is discontinuous (static
+            vs kinetic friction) it causes issues for existence 
+            of solutions.}
+     \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\clearpage
+
+\end{document}
