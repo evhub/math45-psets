@@ -1,0 +1,108 @@
+\documentclass[12pt,letterpaper]{hmcpset}
+\usepackage[margin=1in]{geometry} 
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{boxedminipage}
+\usepackage{url}
+\usepackage{geometry}
+
+% info for header block in upper right hand corner
+\name{}
+\class{Math 45 - Section --- \hspace{20pt}}
+\assignment{HW 06}
+\duedate{Friday, April 8, 2016}
+
+\newcommand{\pn}[1]{\left( #1 \right)}
+\newcommand{\abs}[1]{\left| #1 \right|}
+\newcommand{\bk}[1]{\left[ #1 \right]}
+
+% Start enumerates at a) instead of 1
+\renewcommand{\labelenumi}{{(\alph{enumi})}}
+
+%Block Paragraphs
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1em}
+
+\begin{document}
+
+\problemlist{1, 2, 3, 4, 5}
+
+%p1%
+\begin{problem}[1]
+    Consider the general, linear, second-order, constant-coefficient, homogeneous differential equation $ay''+by'+cy=0$.
+    Assuming $a\neq 0$, if we divide the whole equation by $a$, we arrive at
+    \[
+        y''+\alpha y'+\beta y=0,
+    \]
+    where $\alpha=b/a$ and $\beta=c/a$. Assume that $\alpha$ and $\beta$ are real numbers.
+    \begin{enumerate}
+        \item For which values of $\alpha$ and $\beta$ will we get solutions that oscillate (i.e., the roots of the characteristic equation are complex)? For which values of $\alpha$ and $\beta$ will we get solutions that don't oscillate? For which values of $\alpha$ and $\beta$ will we get repeated roots of the characteristic equation?
+        \item For which values of $\alpha$ and $\beta$ will we get solutions that decay to zero as $t\to\infty$? For which values of $\alpha$ and $\beta$ will we get solutions that grow exponentially (oscillatory or not) as $t\to\infty$?
+        \item Draw a plane with $\alpha$ and $\beta$ as the two axes. Summarize the information in parts (a) and (b) graphically by showing which regions of the plane correspond to different types of behaviors.
+        \item Watch this video: \url{http://vimeo.com/63064216}. If the behavior of the door could be described by a linear, second-order, constant-coefficient, homogeneous ODE, what must be true about the parameters $\alpha$ and $\beta$?
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\newpage
+
+%p2%
+\begin{problem}[2]
+    A RLC circuit consists of a resistor with $R=20$ ohms, an inductor with $L= 1$ Henry, a capacitor with $C=0.002$ Farads, and a voltage source, all arranged in series. There is initially no charge and no current flowing in the circuit.
+    \begin{enumerate}
+        \item Assume the circuit has a 12~V battery.  Find the charge, $q(t)$. Try to determine a particular solution by inspection.
+        \item Assume the battery is replaced by a generator producing a voltage of $E(t) = 12 \sin (10t)$.  Find the charge, $q(t)$, using the method of undetermined coefficients.
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\newpage
+
+%p3%
+\begin{problem}[3]
+    Consider the IVP $y''-4y'+4y=2x$ with $y(0) = 5$, $y'(0) = 3$.
+    \begin{enumerate}
+        \item Use the method of variation of parameters find the solution to this IVP.
+        \item Now use the method of undetermined coefficients to find the solution to this IVP. (You do not have to redo the part where find the unknown constants using the initial conditions---you can reuse your work from the previous part.)
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\newpage
+
+%p4%
+\begin{problem}[4]
+    Consider the DE $y'' + 3y' + 2y = e^{-2x}$.
+    \begin{enumerate}
+        \item Use the method of variation of parameters find the general solution to this DE.
+        \item Now use the method of undetermined coefficients to find the general solution.
+        \item If your two solutions from part (a) and part (b) are different, reconcile them.
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\newpage
+
+%p5%
+\begin{problem}[5]
+    For each IVP below, think about whether undetermined
+    coefficients of variation of parameters would be more desirable to use. Write a 
+    sentence for each IVP about why you chose the method that you did. You do not need to solve the IVPs, though we strongly suggest that you do so if you would like more practice in preparation for your Math 45 midterm.
+    \begin{enumerate}
+        \item $y''-2y'+y=\dfrac{e^{t}}{1+t^2}$ with $y(0)=y'(0)=0$
+        \item $y''+y=10e^{2t}$ with $y(0)=y'(0)=0$
+    \end{enumerate}
+\end{problem}
+
+\begin{solution}
+    \vfill
+\end{solution}
+\end{document}
